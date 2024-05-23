@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "f1c268e4-f482-4250-9245-03dfb49bc41f",
+		"name": "Opa-Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31988765",
+		"_collection_link": "https://gold-meadow-878586.postman.co/workspace/My-Workspace~f7f6c038-0756-4825-8cce-a75b049a2b2f/collection/31988765-f1c268e4-f482-4250-9245-03dfb49bc41f?action=share&source=collection_link&creator=31988765"
+	},
+	"item": [
+		{
+			"name": "Login as admin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/users/login?email=abdullah@gmail.com",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"users",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "abdullah@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login as user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/users/login?email=mohamed@gmail.com",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"users",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "mohamed@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/users/",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Account Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/users/account",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"users",
+						"account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
