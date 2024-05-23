@@ -1,0 +1,70 @@
+{
+        "firstName": "Ahmed",
+        "lastName": "Hassan",
+        "salary": 3000,
+        "email": "ahmed@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Mohamed",
+        "lastName": "Ali",
+        "salary": 4000,
+        "email": "mohamed@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Omar",
+        "lastName": "Mahmoud",
+        "salary": 4000,
+        "email": "omar@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Sara",
+        "lastName": "Said",
+        "salary": 5000,
+        "email": "sara@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Hana",
+        "lastName": "Gamal",
+        "salary": 5000,
+        "email": "hana@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Youssef",
+        "lastName": "Fahmy",
+        "salary": 6000,
+        "email": "youssef@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Mona",
+        "lastName": "Naguib",
+        "salary": 6000,
+        "email": "mona@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Aya",
+        "lastName": "Khalil",
+        "salary": 7000,
+        "email": "aya@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Karim",
+        "lastName": "Younis",
+        "salary": 7000,
+        "email": "karim@gmail.com",
+        "role": "user"
+    },
+    {
+        "firstName": "Amira",
+        "lastName": "Tarek",
+        "salary": 8000,
+        "email": "amira@gmail.com",
+        "role": "user"
+    }
